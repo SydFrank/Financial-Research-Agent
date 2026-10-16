@@ -1,0 +1,23 @@
+[project]
+name = "harness"
+version = "0.1.0"
+description = "Evaluation harness for the Financial Research Agent"
+authors = [
+    { name = "SydFrank", email = "frankzhsy@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.12",
+]
+
+[project.scripts]
+harness = "harness:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
