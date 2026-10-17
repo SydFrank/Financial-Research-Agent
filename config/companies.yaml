@@ -1,0 +1,15 @@
+# Companies covered by the first version of the system.
+# financial: banks and insurers, whose statements are structured differently
+# (no cost of revenue, no gross margin). First-version evaluation questions
+# cover non-financial companies only.
+companies:
+  - {symbol: "300750", name: 宁德时代, industry: 动力电池, financial: false}
+  - {symbol: "002594", name: 比亚迪, industry: 汽车, financial: false}
+  - {symbol: "600519", name: 贵州茅台, industry: 白酒, financial: false}
+  - {symbol: "000333", name: 美的集团, industry: 家电, financial: false}
+  - {symbol: "600276", name: 恒瑞医药, industry: 医药, financial: false}
+  - {symbol: "002415", name: 海康威视, industry: 安防电子, financial: false}
+  - {symbol: "601012", name: 隆基绿能, industry: 光伏, financial: false}
+  - {symbol: "000002", name: 万科A, industry: 房地产, financial: false}
+  - {symbol: "600036", name: 招商银行, industry: 银行, financial: true}
+  - {symbol: "601318", name: 中国平安, industry: 保险, financial: true}
